@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.col-lg-8
+{
+    font-family: Verdana;
+    font-weight: 100;
+
+}
+.col-lg-7
+{
+    font-family: Verdana;
+    font-weight: 100;
+}
+
+.background{
+    background-color: rgb(7, 2, 44);
+   padding-top: 70px;
+}
+.alignment{
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+}
+h1{
+    font-family: Playfair Display ;
+}
+.alignment sub{
+    font-size: 13px;
+    display: block;
+}
+.alignment h2{
+    margin-top: 60px;
+
+}
+.margin{
+    margin-top: 20px;
+}
+
+.hero{
+    padding: 29px;
+    margin-bottom: 20px;
+}
+.card{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,52 @@
+body{
+    margin-top: 20px;
+}
+.brand{
+    background: #023f16;
+    width: fit-content;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 5px;}
+
+.stock{
+    font-size: 13px;
+}
+
+.green{color: green;}
+.red{color: red;}
+
+.price{
+    color: teal;
+    font-size: 18px;
+}
+.product{
+    font-size: 13px;
+    
+}
+.btn-primary{
+    background-color: orange;
+    border: none;
+}
+
+.review{
+    padding: 10px;
+    background-color: rgb(177, 177, 177);
+    margin: 0px;
+}
+.comment{
+    background-color: honeydew;
+    margin: 0px;
+}
+.fi-xnsuxl-star-solid{
+    color: yellow;
+}
+.link{
+    margin-bottom:10px ;
+    font-size: 12px;
+    border: 2px solid grey;
+    border-radius: 30px 30px 30px 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}

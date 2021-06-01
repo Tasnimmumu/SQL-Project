@@ -1,0 +1,99 @@
+body{
+    background-color:  #f4f4f4;
+}
+.bdy
+{
+  background-color:  #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1000px;
+  height: 20px;
+  padding-left: 300px;
+  padding-right: 50px;
+  padding-top: 50px;
+  margin: 90px;
+
+}
+
+input[type=text], input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(2, 2, 41);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+form 
+{
+  padding:16px;
+  border: 2px solid rgb(6, 0, 31);
+
+
+}
+.picofProduct{
+    padding-top: 80px;
+  margin-left: 30px;
+  float:left;
+    bottom: 0;
+
+}
+.c {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgb(2, 2, 41);
+  overflow: hidden;
+  height: 0;
+  width:300px;
+  transition: .5s ease;
+}
+
+.c:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+a{
+  text-decoration: none;
+  border: 2px solid indigo;
+  padding: 5px;
+}

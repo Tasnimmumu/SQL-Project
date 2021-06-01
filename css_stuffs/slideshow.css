@@ -1,0 +1,25 @@
+
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin:auto;
+}
+
+.mySlides {
+  display: none;
+}
+ .back{
+     background-color: rgb(9, 1, 39);
+ }
+
+
+.easein {
+  animation-name: easein;
+  animation-duration: 5s;
+}
+
+@keyframes easein {
+
+  from {opacity: .4} 
+  to {opacity: 1}
+}
